@@ -55,7 +55,11 @@ int main()
 			Reel_one.Add(num_one);
 			Reel_one.Add(num_two);
 			Reel_one.Add(num_three);
-
+			Reel_one.Extract();
+			Reel_one.Show();
+			Reel_one.Extract();
+			Reel_one.Show();
+			Reel_one.Extract();
 			Reel_one.Show();
 			if (num_one == num_two || 
 				num_two == num_three)
